@@ -7,7 +7,8 @@ public class Question3
     //System.out.print("Enter integer:");
     Scanner in = new Scanner(System.in);
     int int1 = in.nextInt();
-    System.out.print(int1);
+    int result = int1 * int1;
+    System.out.print(result);
     
   }
 }
