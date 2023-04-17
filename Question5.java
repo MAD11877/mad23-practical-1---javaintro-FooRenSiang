@@ -4,13 +4,13 @@ public class Question5
 {
   public static void main(String[] args)
   {
-    System.out.print("Enter number of integer:");
+    //System.out.print("Enter number of integer:");
     Scanner in = new Scanner(System.in);
     int loop = in.nextInt();
     int[] arr = new int[loop];
 
     for (int i = 0; i < loop; i++){
-      System.out.print("Enter integer:");
+      //System.out.print("Enter integer:");
       arr[i] = in.nextInt();
     }
     int mode = 0;
