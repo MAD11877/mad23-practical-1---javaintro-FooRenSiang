@@ -27,6 +27,6 @@ public class Question5
             mode = arr[i];
         }
     }
-    System.out.println("The mode is " + mode);
+    System.out.println(mode);
   }
 }
